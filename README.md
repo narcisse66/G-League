@@ -49,29 +49,27 @@ npm run dev
 ou
 yarn dev
 
-Structure du projet
-G-League/
-│
-├─ public/                  # Assets statiques (images, logos)
-│
-├─ src/
-│   ├─ app/                  # Pages et routes (Next.js App Router)
-│   │   ├─ calendar/
-│   │   ├─ classement/
-│   │   ├─ match/
-│   │   ├─ news/
-│   │   ├─ newsdetails/
-│   │   └─ team/
-│   │
-│   ├─ components/           # Composants UI réutilisables (Hero, Card, Button, Footer)
-│   ├─ lib/                  # Constantes et données statiques (teams, players)
-│   └─ styles/               # CSS global ou Tailwind overrides
-│
-├─ .gitignore
-├─ next.config.js
-├─ package.json
-├─ tsconfig.json
-└─ README.md
+## Structure du projet
+
+**G-League/**  
+├─ **public/** — Assets statiques (images, logos)  
+├─ **src/**  
+│   ├─ **app/** — Pages et routes (Next.js App Router)  
+│   │   ├─ calendar/  
+│   │   ├─ classement/  
+│   │   ├─ match/  
+│   │   ├─ news/  
+│   │   ├─ newsdetails/  
+│   │   └─ team/  
+│   ├─ **components/** — Composants UI réutilisables (Hero, Card, Button, Footer)  
+│   ├─ **lib/** — Constantes et données statiques (teams, players)  
+│   └─ **styles/** — CSS global ou Tailwind overrides  
+├─ **.gitignore**  
+├─ **next.config.js**  
+├─ **package.json**  
+├─ **tsconfig.json**  
+└─ **README.md**
+
 '''
 
 4- Technologies
