@@ -22,7 +22,8 @@ export default function TeamStats({ teamName, logo, players }: Props) {
             {/* Overlay sombre */}
             <div className="absolute inset-0 bg-black/90"></div>
             <h1 className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mb-10 relative z-10 mt-30">
-                Season&apos;s Statistics
+                {"Season's Statistics"}
+
             </h1>
 
 
