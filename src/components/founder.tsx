@@ -97,7 +97,7 @@ export default function Founder() {
                     }}
                     className="text-muted-foreground mb-4 leading-relaxed"
                   >
-                    "{t.details}"
+                    &quot;{t.details}&quot;
                   </motion.p>
 
                   <motion.cite
