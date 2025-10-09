@@ -16,7 +16,7 @@ export default function TeamsPage() {
             <h1 className="text-4xl font-bold mb-10 relative z-10 mt-30">All Teams</h1>
             
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl relative z-10">
                 {teams.map((team) => (
 
                     <Link
