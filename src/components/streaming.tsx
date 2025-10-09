@@ -37,7 +37,7 @@ export default function Streaming() {
           Choose the perfect plan for watch your favorite team.
         </motion.p>
 
-        {/* Pricing grid */}
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
           {pricingTable.map((plan, index) => (
             <motion.div

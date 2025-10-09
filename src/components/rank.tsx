@@ -79,14 +79,14 @@ export default function Rank() {
         backgroundPosition: 'center',
       }}
     >
-      {/* Overlay noir semi-transparent */}
+     
       <div className="absolute inset-0 bg-black/80"></div>
 
       <h1 className="text-4xl font-bold mb-10 mt-30 uppercase tracking-wide z-10 text-center">
         Team Rankings
       </h1>
 
-      {/* Tableau centré et sans overflow */}
+      
       <div className="relative w-full max-w-6xl z-10">
         <table className="w-full border-collapse border border-gray-700 text-center backdrop-blur-sm bg-black/60 rounded-lg">
           <thead className="bg-gray-900 text-yellow-400 uppercase text-sm">
@@ -111,7 +111,7 @@ export default function Rank() {
 
                 <td className="border border-gray-700 px-4 py-3">
                   <div className="flex items-center justify-center gap-3">
-                    {/* Conteneur contrôlant la taille du logo */}
+                   
                     <div className="relative w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] md:w-[80px] md:h-[80px]">
                       <Image
                         src={team.logo}

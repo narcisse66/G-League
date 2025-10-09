@@ -11,12 +11,12 @@ export default function ThemeToggle() {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
-    // On met mounted à true après le montage côté client
+    
     useEffect(() => {
         setMounted(true);
     }, []);
 
-    // On ne rend rien tant que le composant n'est pas monté
+    
     if (!mounted) return null;
     return (
 

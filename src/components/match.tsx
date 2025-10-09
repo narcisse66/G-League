@@ -47,7 +47,7 @@ const matches: Match[] = [
         homeLogo: '/images/logos/logo4.png',
         awayLogo: '/images/logos/logo3.png',
         date: '2025-10-05',
-        score: '69 - 72',
+        score: '95 - 70',
     },
     {
         id: 5,
@@ -56,7 +56,7 @@ const matches: Match[] = [
         homeLogo: '/images/logos/logo2.png',
         awayLogo: '/images/logos/logo5.png',
         date: '2025-10-05',
-        score: '78 - 56',
+        score: '80 - 90',
     },
     {
         id: 6,
@@ -65,7 +65,7 @@ const matches: Match[] = [
         homeLogo: '/images/logos/logo6.png',
         awayLogo: '/images/logos/logo1.png',
         date: '2025-10-05',
-        score: '80 - 69',
+        score: '75 - 66',
     },
 ];
 
@@ -120,7 +120,7 @@ export default function MatchesPage() {
                             </span>
                         </motion.div>
 
-                        {/* Bloc central — reste centré */}
+                        
                         <div
                            
                             className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center text-center bg-gray-600/80 rounded-lg p-2 w-28 sm:w-32 z-20"

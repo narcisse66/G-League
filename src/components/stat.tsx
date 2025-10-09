@@ -19,7 +19,7 @@ export default function TeamStats({ teamName, logo, players }: Props) {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            {/* Overlay sombre */}
+           
             <div className="absolute inset-0 bg-black/90"></div>
             <h1 className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mb-10 relative z-10 mt-30">
                 {"Season's Statistics"}
@@ -27,9 +27,9 @@ export default function TeamStats({ teamName, logo, players }: Props) {
             </h1>
 
 
-            {/* Contenu principal */}
+           
             <div className="relative z-10 w-full max-w-5xl bg-gray-800/70 rounded-lg shadow-lg p-8 backdrop-blur-sm ">
-                {/* En-tête avec logo et nom de l’équipe */}
+               
                 <div className="flex items-center justify-center mb-8">
                     <Image
                         src={logo}
@@ -43,7 +43,7 @@ export default function TeamStats({ teamName, logo, players }: Props) {
                     </h1>
                 </div>
 
-                {/* Tableau des statistiques */}
+                
                 <table className="w-full border-collapse border border-gray-700 text-center text-sm md:text-base">
                     <thead className="bg-gray-900 text-yellow-400">
                         <tr>

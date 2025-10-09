@@ -18,7 +18,7 @@ export default function LogoTeam() {
           />
         ))}
 
-        {/* Duplique pour l’effet de boucle fluide */}
+       
         {logos.map((src, index) => (
           <Image
             key={`clone-${index}`}
