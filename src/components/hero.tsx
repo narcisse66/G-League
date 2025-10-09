@@ -59,22 +59,25 @@ export default function hero() {
             <Button
               size="lg"
               variant="outline"
-              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8 mb-20"
+              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8 mb-10"
             >
               {' '}
               <Link href="/match">Last Game</Link>
               
             </Button>
           </motion.div>
+
+
+          <div className="flex justify-center animate-bounce mt-6 mb-20">
+            <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center dark:border-white">
+              <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse dark:bg-white"></div>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce ">
-        <div className=" w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse "></div>
-        </div>
-      </div>
+  
+
     </section>
   );
 }

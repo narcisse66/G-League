@@ -19,7 +19,7 @@ const matches: Match[] = [
     { id: 1, homeTeam: 'The Predators', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-09', hour: '19:30' },
     { id: 3, homeTeam: 'Wave Storm', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-09', hour: '16:30' },
     { id: 4, homeTeam: 'The Warriors', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo3.png', date: '2025-10-05', score: '95 - 70' },
-    { id: 5, homeTeam: 'Pure Mamba', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo5.png', date: '2025-10-05', score: '80 - 90' },
+    { id: 5, homeTeam: 'Wave Storm', awayTeam: 'Pure Mamba', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo2.png', date: '2025-10-05', score: '90 - 80' },
     { id: 6, homeTeam: 'Wolves Shot', awayTeam: 'The Predators', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo1.png', date: '2025-10-05', score: '75 - 66' },
 ];
 

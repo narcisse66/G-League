@@ -2,6 +2,8 @@ import { teams } from '@/lib/constant';
 import Image from 'next/image';
 import * as motion from 'motion/react-client';
 import Link from 'next/link';
+import { Button } from './ui/button';
+import { BarChart3 } from "lucide-react";
 
 export default function TeamsPage() {
     return (
@@ -19,13 +21,9 @@ export default function TeamsPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl relative z-10">
                 {teams.map((team) => (
 
-                    <Link
-                        key={team.slug}
-                        href={`/stat/${team.slug}`}
-                        className="bg-gray-800/70 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition block"
-                    >
+                
 
-                    <div key={team.id} className="bg-gray-800/70 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition">
+                    <div key={team.id} className=" bg-gray-800/70 rounded-xl shadow-lg overflow-hidden hover:scale-105 transform transition">
                         <div
                           
                             className="bg-gray-700/70 p-4 flex flex-col items-center"
@@ -85,9 +83,16 @@ export default function TeamsPage() {
                                     </li>
                                 ))}
                             </ul>
+
+                            <Button className=" w-full mt-4 mx-auto block flex items-center gap-2">
+                                <Link href={`/stat/${team.slug}`} className="flex items-center gap-2 hover:underline text-white">
+                                    <BarChart3 className="w-5 h-5" />
+                                    View Stats
+                                </Link>
+                            </Button>
                         </motion.div>
                     </div>
-                   </Link>
+                   
                 ))}
             </div>
             

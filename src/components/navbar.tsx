@@ -20,7 +20,15 @@ export default function navbar() {
               alt="Gravity League Logo"
               width={60}
               height={60}
-              className="object-contain"
+              className="object-contain dark:hidden"
+            />
+
+            <Image
+              src="/images/logos/logo7white.png"
+              alt="Gravity League Logo Dark"
+              width={60}
+              height={60}
+              className="object-contain hidden dark:block"
             />
             <h1 className="text-2xl font-black font-heading text-primary">
               GravityLeague

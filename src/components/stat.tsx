@@ -21,7 +21,7 @@ export default function TeamStats({ teamName, logo, players }: Props) {
         >
             <div className="absolute inset-0 bg-black/90"></div>
 
-            <h1 className=" text-4xl sm:text-5xl md:text-7xl font-bold font-heading mb-6 mt-30 relative z-10 mt-6 sm:mt-30 text-center">
+            <h1 className="text-2xl sm:text-5xl md:text-6xl font-bold mb-6 mt-30 sm:mb-10 mt-6 sm:mt-30 text-center relative z-10">
                 {"Season's Statistics"}
             </h1>
 

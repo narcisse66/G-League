@@ -10,16 +10,20 @@ type Team = {
   wins: number;
   losses: number;
   points: number;
+  scored: number;
 };
 
 export default function Rank() {
   const [teams] = useState<Team[]>([
-    { rank: 1, logo: '/images/logos/logo1.png', name: 'The Predators', matches: 2, wins: 2, losses: 0, points: 4 },
-    { rank: 2, logo: '/images/logos/logo2.png', name: 'Pure Mamba', matches: 2, wins: 2, losses: 0, points: 4 },
-    { rank: 3, logo: '/images/logos/logo3.png', name: 'Sky Titans', matches: 2, wins: 2, losses: 0, points: 4 },
-    { rank: 4, logo: '/images/logos/logo4.png', name: 'The Warriors', matches: 2, wins: 0, losses: 2, points: 0 },
-    { rank: 5, logo: '/images/logos/logo5.png', name: 'Wave Storm', matches: 2, wins: 0, losses: 2, points: 0 },
-    { rank: 6, logo: '/images/logos/logo6.png', name: 'Wolves Shot', matches: 2, wins: 0, losses: 2, points: 0 },
+    
+    { rank: 1, logo: '/images/logos/logo2.png', name: 'Pure Mamba', matches: 2, wins: 2, losses: 0, points: 4, scored: 175, },
+    { rank: 2, logo: '/images/logos/logo6.png', name: 'Wolves Shot', matches: 2, wins: 2, losses: 0, points: 4, scored: 174, },
+    { rank: 3, logo: '/images/logos/logo4.png', name: 'The Warriors', matches: 2, wins: 1, losses: 1, points: 2, scored: 183, },
+    { rank: 4, logo: '/images/logos/logo1.png', name: 'The Predators', matches: 2, wins: 1, losses: 1, points: 2, scored: 157, },
+    { rank: 5, logo: '/images/logos/logo5.png', name: 'Wave Storm', matches: 2, wins: 0, losses: 2, points: 0 , scored: 165, },
+    { rank: 6, logo: '/images/logos/logo3.png', name: 'Sky Titans', matches: 2, wins: 0, losses: 2, points: 0, scored: 149, },
+    
+    
   ]);
 
   return (
@@ -33,11 +37,11 @@ export default function Rank() {
     >
       <div className="absolute inset-0 bg-black/80"></div>
 
-      <h1 className=" text-2xl sm:text-4xl font-bold mb-6 sm:mb-10 mt-6 sm:mt-40 uppercase tracking-wide z-10 text-center">
+      <h1 className=" text-2xl sm:text-4xl font-bold mb-6 sm:mb-10 mt-30 mt-6 sm:mt-40 uppercase tracking-wide z-10 text-center">
         Team Rankings
       </h1>
 
-      <div className="relative w-full max-w-6xl z-10 overflow-x-auto">
+      <div className="relative w-full max-w-6xl z-10 overflow-x-auto mb-25">
         <table className="w-full min-w-[500px] border-collapse border border-gray-700 text-center backdrop-blur-sm bg-black/60 rounded-lg">
           <thead className="bg-gray-900 text-yellow-400 uppercase text-xs sm:text-sm">
             <tr>
@@ -47,6 +51,7 @@ export default function Rank() {
               <th className="border border-gray-700 px-2 sm:px-4 py-2">Matches</th>
               <th className="border border-gray-700 px-2 sm:px-4 py-2">Wins</th>
               <th className="border border-gray-700 px-2 sm:px-4 py-2">Losses</th>
+              <th className="border border-gray-700 px-2 sm:px-4 py-2"> Scored</th>
             </tr>
           </thead>
           <tbody>
@@ -70,6 +75,7 @@ export default function Rank() {
                 <td className="border border-gray-700 px-1 sm:px-4 py-2 text-xs sm:text-sm">{team.matches}</td>
                 <td className="border border-gray-700 px-1 sm:px-4 py-2 text-xs sm:text-sm">{team.wins}</td>
                 <td className="border border-gray-700 px-1 sm:px-4 py-2 text-xs sm:text-sm">{team.losses}</td>
+                <td className="border border-gray-700 px-1 sm:px-4 py-2 text-xs sm:text-sm">{team.scored}</td>
               </tr>
             ))}
           </tbody>
