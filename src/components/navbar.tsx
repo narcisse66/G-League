@@ -16,7 +16,7 @@ export default function navbar() {
           
           <div className="flex items-center space-x-2">
             <Image
-              src="/images/logos/logoGl.png"  
+              src="/images/logos/logo7.png"  
               alt="Gravity League Logo"
               width={60}
               height={60}
