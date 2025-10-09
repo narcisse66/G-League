@@ -66,7 +66,7 @@ export default function Highlight() {
             className="absolute inset-0 flex items-center justify-center cursor-pointer"
           >
             <img
-              src="/images/play_icon.png"
+              src="/images/playicon.png"
               alt="Play"
               className="w-32 h-32 opacity-95 hover:opacity-100 transition-opacity duration-300"
             />

@@ -35,7 +35,7 @@ export default function hero() {
             transition={{ delay: 0.3, duration: 0.7 }}
             className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto"
           >
-            Where passion meets purpose. Where every drive, every play, every second counts. This is the league where legends are made.  The court is calling <br /> will you rise?
+            Where passion meets purpose. Where every drive, every play, every second counts. This is the league where legends are made. 
           </motion.p>
 
           <motion.div
