@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Founder() {
   return (
     <section className="   mb-15">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <motion.h2
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
