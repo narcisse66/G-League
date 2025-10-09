@@ -116,7 +116,7 @@ export default function MatchesPage() {
         >
             <div className="absolute inset-0 bg-black/90"></div>
 
-            <h1 className="text-2xl sm:text-5xl md:text-6xl font-black mb-6 mt-30 sm:mb-10 mt-6 sm:mt-30 text-center relative z-10">
+            <h1 className="text-2xl sm:text-5xl md:text-6xl font-bold mb-6 mt-30 sm:mb-10 mt-6 sm:mt-30 text-center relative z-10">
                 Upcoming and Recents <br />
                 <span className="text-primary">Matches</span>
             </h1>

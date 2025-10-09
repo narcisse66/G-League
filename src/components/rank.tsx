@@ -33,7 +33,7 @@ export default function Rank() {
     >
       <div className="absolute inset-0 bg-black/80"></div>
 
-      <h1 className="text-2xl sm:text-4xl font-bold mb-6 sm:mb-10 mt-6 sm:mt-10 uppercase tracking-wide z-10 text-center">
+      <h1 className=" text-2xl sm:text-4xl font-bold mb-6 sm:mb-10 mt-6 sm:mt-40 uppercase tracking-wide z-10 text-center">
         Team Rankings
       </h1>
 
