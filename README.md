@@ -37,7 +37,7 @@ Clonez le projet et installez les dépendances :
 git clone https://github.com/narcisse66/G-League.git
 cd G-League
 npm install
-# ou
+ ou
 yarn install
 '''
 
@@ -46,7 +46,7 @@ yarn install
 Pour lancer le serveur de développement :
 
 npm run dev
-# ou
+ou
 yarn dev
 
 Structure du projet
