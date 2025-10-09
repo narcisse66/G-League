@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Gravity League - Next.js Project
 
-## Getting Started
+Gravity League est une application web pour suivre une ligue de basket.
+Les utilisateurs peuvent consulter les statistiques des équipes et joueurs, le calendrier des matchs, les actualités et détails des matchs.
 
-First, run the development server:
+Ce projet utilise Next.js 13+ (App Router), TypeScript, Tailwind CSS, et est déployé sur Vercel.
 
-```bash
+Table des matières
+
+1 - Prérequis
+
+2 - Installation
+
+3 - Développement et Production
+
+4 - Structure du projet
+
+Technologies
+
+1 - Prérequis
+
+Avant de commencer, assurez-vous d’avoir :
+
+Node.js >= 18.x
+
+npm ou yarn
+
+Git
+
+Un compte Vercel pour le déploiement
+'''
+
+2 - Installation
+
+Clonez le projet et installez les dépendances :
+
+git clone https://github.com/narcisse66/G-League.git
+cd G-League
+npm install
+# ou
+yarn install
+'''
+
+3- Developpement
+
+Pour lancer le serveur de développement :
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Structure du projet
+G-League/
+│
+├─ public/                  # Assets statiques (images, logos)
+│
+├─ src/
+│   ├─ app/                  # Pages et routes (Next.js App Router)
+│   │   ├─ calendar/
+│   │   ├─ classement/
+│   │   ├─ match/
+│   │   ├─ news/
+│   │   ├─ newsdetails/
+│   │   └─ team/
+│   │
+│   ├─ components/           # Composants UI réutilisables (Hero, Card, Button, Footer)
+│   ├─ lib/                  # Constantes et données statiques (teams, players)
+│   └─ styles/               # CSS global ou Tailwind overrides
+│
+├─ .gitignore
+├─ next.config.js
+├─ package.json
+├─ tsconfig.json
+└─ README.md
+'''
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4- Technologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Next.js 13+ (App Router)
 
-## Learn More
+TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Motion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Lucide Icons
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vercel
