@@ -53,7 +53,6 @@ export default function Footer() {
                 'Home',
                 'About Us',
                 'Services',
-                'Pricing',
                 'Blog',
                 'Contact',
               ].map((link) => (
