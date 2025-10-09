@@ -39,14 +39,15 @@ export default function News() {
             className="group cursor-pointer"
           >
             <Card className="p-0 transition-shadow duration-300 hover:shadow-2xl">
-              <div className="relative overflow-hidden rounded-t-lg h-64 w-full md:h-80 lg:h-72">
+              <div className="relative h-64 w-full overflow-hidden rounded-t-lg md:h-80 lg:h-72">
                 <Image
                   src={item.image}
-                  fill
                   alt={item.title}
-                  className=" object-cover transition-transform duration-500 group-hover:scale-110"
+                  fill
+                  className="object-cover object-center transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
+
 
               <CardContent className="p-6 pt-0">
                 <motion.h3

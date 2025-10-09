@@ -23,7 +23,7 @@ export default function hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: 'easeOut' }}
-            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter"
+            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mt-30"
           >
             This Is More Than a Game,{' '}
             <span className="text-primary"> This Is GravityLeague.</span>
@@ -59,7 +59,7 @@ export default function hero() {
             <Button
               size="lg"
               variant="outline"
-              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8"
+              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8 mb-20"
             >
               {' '}
               <Link href="/match">Last Game</Link>
@@ -70,9 +70,9 @@ export default function hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse"></div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce ">
+        <div className=" w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center">
+          <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse "></div>
         </div>
       </div>
     </section>
