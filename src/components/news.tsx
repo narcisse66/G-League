@@ -27,7 +27,7 @@ export default function News() {
         The latest news and updates from our basketball Gravity League community.
       </motion.p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-screen-xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
 
         {newwsItems.slice(0,3).map((item, index) => (
           <motion.div

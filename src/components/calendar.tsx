@@ -139,7 +139,7 @@ export default function CalendrierPage() {
       <div className="absolute inset-0 bg-black/90 z-0"></div>
 
       <div className="relative z-10 flex flex-col items-center w-full max-w-4xl">
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-black mb-4 mt-30 sm:mb-8 text-center">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold mb-4 mt-30 sm:mb-8 text-center">
           {" Season's Calendar "} 
         </h1>
         <h2 className="text-xl sm:text-2xl font-semibold mb-6 text-white">

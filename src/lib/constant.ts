@@ -26,7 +26,7 @@ export const newwsItems = [
   {
     title: 'October Promotions',
     description:
-      'Enjoy the full GravityLeague experience this October with GravityLeagueTV, our streaming service now on special offer all month long.',
+      'Enjoy the full GravityLeague experience this October with GravityLeagueTV, our streaming service now on special offer.',
     image: '/images/news7.2.jpg',
     href: '#',
     details: `This October, GravityLeagueTV is offering exclusive promotions to give fans full access to all matches, behind-the-scenes content, and player interviews. Subscribers can enjoy live streams, replays, and highlights from their favorite teams. Take advantage of our special monthly offer and experience the excitement of the league from the comfort of your home. Don't miss out on limited-time bonuses and extra features available only this month.`,
