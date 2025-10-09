@@ -16,7 +16,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   title: 'G-League - Basketball League Website',
   description:
-    'A website that showcases the GravityLeague (Talents Basketball League) informations, including teams, matches, player stats, and the latest news.',
+    'A website that showcases the GravityLeague (G-League) informations, including teams, matches, player stats, and the latest news.',
 };
 
 export default function RootLayout({
