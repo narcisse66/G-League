@@ -23,7 +23,7 @@ export default function About() {
       icon: TrendingUp,
       title: 'Player Development',
       description:
-        "GravityLeague isn't just about winning, it's about growth. Rising stars, homegrown talent, and future pros all get their shot.",
+        "GravityLeague focuses on developing talent. Up-and-coming stars, local talents, and future professionals all have the chance to shine.",
     },
 
     {
@@ -42,7 +42,7 @@ export default function About() {
         transition={{ duration: 0.7, ease: 'easeOut' }}
         className="text-3xl font-bold mb-8 text-center"
       >
-        What's <span className="text-primary">GravityLeague</span> ?
+         {"What's"} <span className="text-primary">GravityLeague</span> ?
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 12 }}

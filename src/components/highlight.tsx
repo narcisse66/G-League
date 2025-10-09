@@ -47,7 +47,7 @@ export default function Highlight() {
         transition={{ duration: 0.7, ease: 'easeOut', delay: 0.2 }}
         className="text-xl text-muted-foreground text-center max-w-2xl mx-auto"
       >
-        Today’s highlight: Sky Titans vs Wolves, opening matchday showdown.
+        {"Today’s highlight: Sky Titans vs Wolves, opening matchday showdown."}
       </motion.p>
 
       <div className="mt-9 relative max-w-5xl mx-auto ">

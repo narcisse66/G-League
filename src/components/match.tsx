@@ -16,24 +16,21 @@ type Match = {
 };
 
 const matches: Match[] = [
+
     {
         id: 1,
-        homeTeam: 'Pure Mamba',
-        awayTeam: 'Sky Titans',
-        homeLogo: '/images/logos/logo2.png',
-        awayLogo: '/images/logos/logo3.png',
-        date: '2025-10-08',
-        hour: '19:30',
-    },
-    {
-        id: 2,
         homeTeam: 'The Predators',
         awayTeam: 'The Warriors',
         homeLogo: '/images/logos/logo1.png',
         awayLogo: '/images/logos/logo4.png',
-        date: '2025-10-10',
+        date: '2025-10-09',
         hour: '19:30',
     },
+   
+ 
+    
+
+   
     {
         id: 3,
         homeTeam: 'Wave Storm',
@@ -41,7 +38,7 @@ const matches: Match[] = [
         homeLogo: '/images/logos/logo5.png',
         awayLogo: '/images/logos/logo6.png',
         date: '2025-10-09',
-        hour: '19:30',
+        hour: '16:30',
     },
     {
         id: 4,

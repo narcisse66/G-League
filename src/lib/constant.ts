@@ -89,7 +89,7 @@ export const founder = [
   {
     name: 'Narcisse D.',
     jobs: 'PDG GravityLeague',
-    details: "Leaders don't follow the game, they reinvent it.",
+    details: "Leaders not only follow the game, they reinvent it.",
     image: '/images/narcisse2.png',
   },
 ];

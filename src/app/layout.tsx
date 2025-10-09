@@ -14,7 +14,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: 'LeaguePro - Basketball League Website',
+  title: 'G-League - Basketball League Website',
   description:
     ' A website who showcase basketball league information and statistics.',
 };
