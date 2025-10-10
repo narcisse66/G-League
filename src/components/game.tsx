@@ -107,9 +107,9 @@ export default function GamePage() {
                         <p className="mb-6 text-lg">{questions[current].question}</p>
 
                         <div className="flex flex-col gap-4 w-full">
-                            {questions[current].options.map((option, index) => (
+                            {questions[current].options.map((option) => (
                                 <label
-                                    key={index}
+                                    key={`${current}-${option}`} // clé unique pour chaque option et question
                                     className={`cursor-pointer border rounded-lg px-4 py-3 text-left transition-all ${selected === option
                                             ? 'bg-yellow-500 text-black border-yellow-400'
                                             : 'bg-gray-800/70 hover:bg-gray-700/90'
