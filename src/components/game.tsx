@@ -75,7 +75,11 @@ export default function GamePage() {
 
 
     const handlePrev = () => {
-        if (current > 0) setCurrent(current - 1);
+        if (current > 0) {
+            setCurrent(prev => prev - 1); 
+            setSelected(null); 
+            setShowResult(false);
+        }
     };
 
     const restartQuiz = () => {
