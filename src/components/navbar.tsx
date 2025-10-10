@@ -37,7 +37,7 @@ export default function navbar() {
 
           {/* Desktop Navigation */}
 
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="flex items-baseline space-x-8">
               {navItems.map((item) => (
                 <Link
@@ -52,13 +52,13 @@ export default function navbar() {
           </div>
 
           {/* CTA */}
-          <div className="hidden md:flex items-center spaxe-x-4">
+          <div className="hidden lg:flex items-center spaxe-x-4">
             <ThemeToggle />
             <Button className="font-semibold">Join us</Button>
           </div>
 
           {/* Mobile navigation*/}
-          <div className='md:hidden'>
+          <div className='lg:hidden'>
             <MobileNavigation />
 
           </div>

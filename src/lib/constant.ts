@@ -9,6 +9,7 @@ export const navItems = [
   { name: 'News', href: '/news' },
   { name: 'Ranking', href: '/classement' },
   { name: 'Teams', href: '/team' },
+  {name: 'Game', href: '/game'},
 ];
 
 
@@ -213,7 +214,7 @@ export const teams: Team[] = [
     members: [
       { id: 1, name: 'Ryan Adams', position: 'Small Forward', points: 30, rebounds: 9, assists: 4, steals: 1, blocks: 1 },
       { id: 2, name: 'Samuel Brooks', position: 'Center', points: 25, rebounds: 10, assists: 2, steals: 0, blocks: 1 },
-      { id: 3, name: 'Lucas Evans', position: 'Point Guard', points: 22, rebounds: 6, assists: 5, steals: 2, blocks: 0 },
+      { id: 3, name: 'Paul Francis', position: 'Point Guard', points: 22, rebounds: 6, assists: 5, steals: 2, blocks: 0 },
       { id: 4, name: 'Eli Turner', position: 'Shooting Guard', points: 20, rebounds: 5, assists: 3, steals: 1, blocks: 0 },
       { id: 5, name: 'Owen Harris', position: 'Power Forward', points: 18, rebounds: 4, assists: 2, steals: 0, blocks: 0 },
       { id: 6, name: 'Mason Clark', position: 'Small Forward', points: 16, rebounds: 3, assists: 1, steals: 0, blocks: 0 },
@@ -235,8 +236,8 @@ export const teams: Team[] = [
     logo: '/images/logos/logo3.png',
     members: [
       { id: 1, name: 'Daniel Green', position: 'Center', points: 28, rebounds: 11, assists: 3, steals: 2, blocks: 2 },
-      { id: 2, name: 'Henry White', position: 'Small Forward', points: 24, rebounds: 7, assists: 4, steals: 1, blocks: 0 },
-      { id: 3, name: 'Lucas King', position: 'Point Guard', points: 22, rebounds: 6, assists: 5, steals: 2, blocks: 1 },
+      { id: 2, name: 'Jaden Williams', position: 'Small Forward', points: 24, rebounds: 7, assists: 4, steals: 1, blocks: 0 },
+      { id: 3, name: 'Lewis King', position: 'Point Guard', points: 22, rebounds: 6, assists: 5, steals: 2, blocks: 1 },
       { id: 4, name: 'Alexander Young', position: 'Shooting Guard', points: 20, rebounds: 5, assists: 3, steals: 1, blocks: 0 },
       { id: 5, name: 'Matthew Lewis', position: 'Power Forward', points: 18, rebounds: 4, assists: 2, steals: 0, blocks: 0 },
       { id: 6, name: 'Evan Harris', position: 'Small Forward', points: 15, rebounds: 3, assists: 1, steals: 0, blocks: 0 },

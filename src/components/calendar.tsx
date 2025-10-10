@@ -81,27 +81,27 @@ const calendrier: Record<number, Match[]> = {
   ],
 
   3: [
-    { id: 7, homeTeam: 'The Warriors', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo5.png', date: '2025-10-18', time: '18:00', },
-    { id: 8, homeTeam: 'The Predators', awayTeam: 'Pure Mamba', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo2.png', date: '2025-10-19', time: '20:30', },
-    { id: 9, homeTeam: 'Sky Titans', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo3.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-20', time: '19:00', },
+    { id: 7, homeTeam: 'The Predators', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-30', time: '16:30', },
+    { id: 8, homeTeam: 'Wave Storm', awayTeam: 'wolves shot', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-30', time: '19:30', },
+    { id: 9, homeTeam: 'Sky Titans', awayTeam: 'Pure Mamba', homeLogo: '/images/logos/logo3.png', awayLogo: '/images/logos/logo2.png', date: '2025-10-31', time: '20:00', },
   ],
 
   4:
     [
-      { id: 10, homeTeam: 'Sky Titans', awayTeam: 'The Predators', homeLogo: '/images/logos/logo3.png', awayLogo: '/images/logos/logo1.png', date: '2025-10-21', time: '17:30', },
-      { id: 11, homeTeam: 'Wave Storm', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-22', time: '20:00', },
+      { id: 10, homeTeam: 'Sky Titans', awayTeam: 'The Predators', homeLogo: '/images/logos/logo3.png', awayLogo: '/images/logos/logo1.png', date: '2025-11-05', time: '16:30', },
+      { id: 11, homeTeam: 'Wave Storm', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo4.png', date: '2025-11-05', time: '19:30', },
       {
-        id: 12, homeTeam: 'Pure Mamba', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-23', time: '18:30',
+        id: 12, homeTeam: 'Pure Mamba', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo6.png', date: '2025-11-06', time: '20:00',
 
       },
     ],
 
   5:
     [
-      { id: 13, homeTeam: 'Pure Mamba', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo3.png', date: '2025-10-24', time: '18:30', },
-      { id: 14, homeTeam: 'The Predators', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-25', time: '20:00', },
+      { id: 13, homeTeam: 'Pure Mamba', awayTeam: 'The Predators', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo1.png', date: '2025-11-15', time: '16:30', },
+      { id: 14, homeTeam: 'Sky Titans', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo3.png', awayLogo: '/images/logos/logo4.png', date: '2025-11-15', time: '19:30', },
       {
-        id: 15, homeTeam: 'Wolve Shot ', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo5.png', date: '2025-10-26', time: '19:00',
+        id: 15, homeTeam: 'Wolve Shot ', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo5.png', date: '2025-11-16', time: '20:00',
 
       },
     ],
@@ -109,15 +109,18 @@ const calendrier: Record<number, Match[]> = {
   6:
     [
       {
-        id: 16, homeTeam: 'Wolves Shot', awayTeam: 'The Predators', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo1.png', date: '2025-10-27', time: '17:30',
+        id: 16, homeTeam: 'Wolves Shot', awayTeam: 'The Predators', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo1.png', date: '2025-11-22', time: '16:30',
       },
       {
-        id: 17, homeTeam: 'The Warriors', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo5.png', date: '2025-10-28', time: '18:00',
+        id: 17, homeTeam: 'The Warriors', awayTeam: 'Wave Storm', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo5.png', date: '2025-11-22', time: '19:30',
       },
       {
-        id: 18, homeTeam: 'Pure Mamba', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo3.png', date: '2025-10-29', time: '20:30',
+        id: 18, homeTeam: 'Pure Mamba', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo2.png', awayLogo: '/images/logos/logo3.png', date: '2025-11-23', time: '20:00',
       },
     ],
+
+ 
+
 };
 
 export default function CalendrierPage() {

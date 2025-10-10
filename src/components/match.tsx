@@ -10,23 +10,22 @@ type Match = {
     awayTeam: string;
     homeLogo: string;
     awayLogo: string;
-    date: string;
+    date?: string;
     hour?: string;
     score?: string;
 };
 
 const matches: Match[] = [
-    { id: 1, homeTeam: 'The Predators', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-09', hour: '19:30' },
-    { id: 3, homeTeam: 'Wave Storm', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-09', hour: '16:30' },
-    { id: 4, homeTeam: 'The Warriors', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo3.png', date: '2025-10-05', score: '95 - 70' },
-    { id: 5, homeTeam: 'Wave Storm', awayTeam: 'Pure Mamba', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo2.png', date: '2025-10-05', score: '90 - 80' },
-    { id: 6, homeTeam: 'Wolves Shot', awayTeam: 'The Predators', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo1.png', date: '2025-10-05', score: '75 - 66' },
+    { id: 1, homeTeam: 'The Predators', awayTeam: 'The Warriors', homeLogo: '/images/logos/logo1.png', awayLogo: '/images/logos/logo4.png', date: '2025-10-30', hour: '19:30' },
+    { id: 2, homeTeam: 'Wave Storm', awayTeam: 'Wolves Shot', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo6.png', date: '2025-10-30', hour: '16:30' },
+    { id: 3, homeTeam: 'The Warriors', awayTeam: 'Sky Titans', homeLogo: '/images/logos/logo4.png', awayLogo: '/images/logos/logo3.png', score: '95 - 70' },
+    { id: 4, homeTeam: 'Wave Storm', awayTeam: 'Pure Mamba', homeLogo: '/images/logos/logo5.png', awayLogo: '/images/logos/logo2.png', score: '90 - 80' },
+    { id: 5, homeTeam: 'Wolves Shot', awayTeam: 'The Predators', homeLogo: '/images/logos/logo6.png', awayLogo: '/images/logos/logo1.png', score: '75 - 66' },
 ];
 
 export default function MatchesPage() {
-    const today = new Date().toISOString().split('T')[0];
-    const pastMatches = matches.filter((m) => m.date < today);
-    const upcomingMatches = matches.filter((m) => m.date >= today);
+    const pastMatches = matches.filter((m) => m.score); 
+    const upcomingMatches = matches.filter((m) => !m.score); 
 
     const MatchCard = ({ match }: { match: Match }) => (
         <div className="relative flex flex-col sm:flex-row items-center sm:justify-between bg-gray-800/70 rounded-lg p-3 sm:p-4 shadow-lg backdrop-blur-sm hover:scale-105 transition-transform w-full overflow-hidden">
