@@ -15,7 +15,7 @@ export default function hero() {
             backgroundPosition: 'center',
           }}
         >
-        <div className="absolute inset-0 bg-black/80"></div>
+      <div className="absolute inset-0 bg-black/90 z-0"></div>
       
 
       <div className="relative z-10 text-white text-center px-4 max-w-4xl">
