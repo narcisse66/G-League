@@ -6,16 +6,17 @@ import Link from 'next/link';
 
 export default function hero() {
   return (
-    <section className="h-screen flex items-center justify-center overflow-hidden pt-16">
-      <div className="absolute inset-0">
-        <Image
-          src="/images/herosection3.jpg"
-          alt="basketleague"
-          fill
-          className="object-cover object-center"
-        />
+   
+        <section
+          className="h-screen flex items-center justify-center overflow-hidden pt-16"
+          style={{
+            backgroundImage: "url('/images/herosection3.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
         <div className="absolute inset-0 bg-black/80"></div>
-      </div>
+      
 
       <div className="relative z-10 text-white text-center px-4 max-w-4xl">
         <div>
@@ -23,7 +24,7 @@ export default function hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: 'easeOut' }}
-            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mt-30"
+            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mt-70"
           >
             This Is More Than a Game,{' '}
             <span className="text-primary"> This Is GravityLeague.</span>
@@ -59,7 +60,7 @@ export default function hero() {
             <Button
               size="lg"
               variant="outline"
-              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8 mb-10"
+              className="bg-transparent text-lg font-semibold transition-transform duration 300 hover:scale-105 px-8 mb-10 "
             >
               {' '}
               <Link href="/match">Last Game</Link>
@@ -68,7 +69,7 @@ export default function hero() {
           </motion.div>
 
 
-          <div className="flex justify-center animate-bounce mt-6 mb-20">
+          <div className="flex justify-center animate-bounce mt-6 mb-50">
             <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center dark:border-white">
               <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse dark:bg-white"></div>
             </div>
