@@ -7,15 +7,17 @@ import Link from 'next/link';
 export default function hero() {
   return (
    
-        <section
-          className="h-screen flex items-center justify-center overflow-hidden pt-16"
-          style={{
-            backgroundImage: "url('/images/herosection3.jpg')",
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
-      <div className="absolute inset-0 bg-black/90 z-0"></div>
+    <section className="h-screen flex items-center justify-center relative pt-16 overflow-hidden">
+      
+      <div className="absolute inset-0">
+        <Image
+          src="/images/herosection3.jpg"
+          alt="Background"
+          fill
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/80"></div>
+      </div>
       
 
       <div className="relative z-10 text-white text-center px-4 max-w-4xl">
@@ -24,8 +26,9 @@ export default function hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: 'easeOut' }}
-            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mt-70"
+            className="text-5xl md:text-7xl font-black font-heading mb-6  leading-tighter mt-95 sm:mt-75  "
           >
+            
             This Is More Than a Game,{' '}
             <span className="text-primary"> This Is GravityLeague.</span>
           </motion.h1>
@@ -34,7 +37,7 @@ export default function hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.7 }}
-            className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto"
+            className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto "
           >
             Where passion meets purpose. Where every drive, every play, every second counts. This is the league where legends are made. 
           </motion.p>
@@ -69,7 +72,7 @@ export default function hero() {
           </motion.div>
 
 
-          <div className="flex justify-center animate-bounce mt-6 mb-50">
+          <div className="flex justify-center animate-bounce mt-6 sm:mb-50 mb-80">
             <div className="w-6 h-10 border-2 border-primary-foreground rounded-full flex justify-center dark:border-white">
               <div className="w-1 h-3 bg-primary-foreground rounded-full mt-2 animate-pulse dark:bg-white"></div>
             </div>
