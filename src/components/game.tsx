@@ -57,20 +57,21 @@ export default function GamePage() {
     const [score, setScore] = useState(0);
     const [showResult, setShowResult] = useState(false);
 
+
     const handleNext = () => {
-        // Vérifie si la réponse est correcte
         if (selected && selected === questions[current].answer) {
-            setScore(score + 1);
+            setScore(prev => prev + 1); 
         }
-        // Réinitialise la sélection
+
         setSelected(null);
-        
+
         if (current + 1 < questions.length) {
-            setCurrent(current + 1);
+            setCurrent(prev => prev + 1);
         } else {
             setShowResult(true);
         }
     };
+
 
 
     const handlePrev = () => {
@@ -117,7 +118,8 @@ export default function GamePage() {
                                 >
                                     <input
                                         type="radio"
-                                        name={`question-${current}`}
+                                        name={`question-${questions[current].id}`}
+
                                         value={option}
                                         checked={selected === option}
                                         onChange={() => setSelected(option)}
