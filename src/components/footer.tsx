@@ -53,7 +53,7 @@ export default function Footer() {
                 {name: 'Home', href: '/'},
                 {name:  'About Us', href: '/'},
                 {name: 'Matches', href: '/match'},
-                {name:'News', href: '/news'},
+                
                 {name:'Teams', href: '/team'},
               ].map((link) => (
                 <li key={link.name}>
