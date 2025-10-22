@@ -7,7 +7,7 @@ import { Button } from './ui/button';
 import Link from 'next/link';
 export default function News() {
   return (
-    <section className=" dark:bg-foreground/4  mx-auto px-4 sm:px-6 lg:px-8 py-24 mb-15">
+    <section className=" dark:bg-foreground/4  mx-auto px-4 sm:px-6 lg:px-8 py-20">
       <motion.h2
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -24,12 +24,12 @@ export default function News() {
         transition={{ duration: 0.7, ease: 'easeOut', delay: 0.2 }}
         className="text-xl text-muted-foreground text-center max-w-2xl mx-auto"
       >
-        The latest news and updates from our basketball Gravity League community.
+        The latest news and updates from Gravity League .
       </motion.p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 max-w-6xl mx-auto">
 
-        {newwsItems.slice(0,3).map((item, index) => (
+        {newwsItems.slice(-3).map((item, index) => (
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}

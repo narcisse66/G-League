@@ -6,7 +6,6 @@ import { features } from 'process';
 export const navItems = [
   { name: 'Home', href: '/' },
   { name: 'Matchs', href: '/match' },
-  { name: 'News', href: '/news' },
   { name: 'Ranking', href: '/classement' },
   { name: 'Teams', href: '/team' },
   {name: 'Game', href: '/game'},
@@ -54,7 +53,7 @@ export const newwsItems = [
   {
     title: 'Future Stars',
     description:
-      'Paul Francis is the next big star rising fast in the basketball world today on GravityLeague.',
+      'Paul Francis is the next big star rising fast in GravityLeague.',
     image: '/images/news4.png',
     href: '#',
     details: `Paul Francis has quickly become one of the most talked-about talents in GravityLeague. With his remarkable athleticism, sharp shooting, and intelligent gameplay, he is expected to dominate the league for years to come. Coaches and analysts have highlighted his consistency and ability to perform under pressure. Fans are eager to see how Paul will lead his team in upcoming matches and what records he might break this season.`,

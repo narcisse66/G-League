@@ -22,7 +22,7 @@ export default function Home() {
       <Highlight />
      
       
-      <Streaming />
+    
       
       <Founder />
       <Footer />

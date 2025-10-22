@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import { logos } from '../lib/constant';
+import { Button } from './ui/button';
+import Link from 'next/link';
 export default function LogoTeam() {
   return (
-    <div className="overflow-hidden py-8 bg-white dark:bg-gray-800">
+    <div className="overflow-hidden  bg-white dark:bg-gray-800">
       <h1 className="text-3xl font-bold mb-8 text-center">
         All Teams
       </h1>
@@ -29,7 +31,17 @@ export default function LogoTeam() {
             className="object-contain"
           />
         ))}
+
+        
       </div>
+      <Button className="mt-8 mx-auto block">
+        <Link href="/teams" className="hover:underline">
+          View All Teams
+        </Link>
+
+      </Button>
+
+     
     </div>
   );
 }

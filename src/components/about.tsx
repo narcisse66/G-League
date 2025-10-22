@@ -49,7 +49,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, ease: 'easeOut', delay: 0.2 }}
-        className="text-xl text-muted-foreground text-center max-w-2xl mx-auto"
+        className="text-xl text-muted-foreground text-center max-w-2xl mx-auto mb-8"
       >
         GravityLeague is a professional basketball league showcasing the top teams of Abomey-Calavi and rising talent. .
       </motion.p>

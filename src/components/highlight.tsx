@@ -51,9 +51,9 @@ export default function Highlight() {
       </motion.p>
 
       <div className="mt-9 relative max-w-5xl mx-auto ">
-        <video ref={videoRef} className=" rounded-lg mb-15" controls>
+        <video ref={videoRef} className=" rounded-lg " controls>
           <source
-            src="https://res.cloudinary.com/dp7fm3nsj/video/upload/v1759750505/highlight2_w7rbsf.mp4"
+            src="https://res.cloudinary.com/dp7fm3nsj/video/upload/v1761166882/ma_video_compressed_qfwdat.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
