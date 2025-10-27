@@ -11,7 +11,7 @@ export default function MobileNavigation() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <>
+        <div>
             <div className="flex items-center justify-between">
                 <ThemeToggle />
                 <Button variant="ghost" onClick={() => setIsOpen(!isOpen)}>
@@ -30,6 +30,6 @@ export default function MobileNavigation() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
