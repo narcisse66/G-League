@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: '/', 
     siteName: 'G-League',
     images: [
-      { url: '/images/logos/logo7white.png', width: 1200, height: 630 },
+      { url: '/images/logos/logo7.png', width: 1200, height: 630 },
     ],
     type: 'website',
     locale: 'en_US',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'G-League - Basketball League Website',
     description: 'A website that showcases the GravityLeague (G-League) informations...',
-    images: ['/images/logos/logo7white.png'], 
+    images: ['/images/logos/logo7.png'], 
   },
 };
 
